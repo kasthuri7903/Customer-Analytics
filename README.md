@@ -1,48 +1,56 @@
-# 📊 CustomerSpectra 🚀
+# 📊 Data Analysis Project
 
-## Problem Statement 💡:
-Understanding customer behavior is crucial for businesses to tailor their marketing strategies, enhance user experience, and optimize conversion rates. However, analyzing vast amounts of customer data and extracting actionable insights can be challenging. The lack of a systematic approach to customer behavior analysis often leads to missed opportunities for revenue growth and customer engagement.
-## Overview 🌟:
-CustomerSpectra is a powerful Jupyter Notebook tool designed to help businesses analyze and understand customer behavior effectively. By leveraging various data analysis techniques, this notebook provides actionable insights into customer demographics, device preferences, browsing patterns, and purchasing behavior.
+## 📜 Project Overview
 
-## Solution 🛠️:
-This jupyternotebook offers a comprehensive solution for businesses to analyze and understand their customer behavior effectively. By leveraging data exploration, customer segmentation, and funnel analysis techniques, the tool aims to provide actionable insights into customer demographics, device preferences, browsing patterns, and purchasing behavior.
+This project involves analyzing user behavior data to test various hypotheses and gain insights into factors influencing product browsing and purchases. The dataset includes information on user age, browsing time, purchases, and other variables.
 
-## Getting Started:
-1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/kasthuri7903/CustomerSpectra.git
-   ```
-2. Install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter notebook `customeranalysis.ipynb` to explore the dataset and execute the analysis scripts.
+## 🔍 Hypotheses
 
-## Insights:
-- **Customer Journey Analyzer** 🛤️: Visualize and analyze the complete customer journey from initial interaction to final conversion, identifying key touchpoints and drop-off points.
-- **Data-Driven Behavior Mapper** 🗺️: Utilize data-driven techniques to map out and understand intricate customer behavior patterns and interactions.
-- **Behavioral Analytics Explorer** 🔍: Explore and analyze a wide range of behavioral analytics metrics to uncover valuable insights and trends.
-- **Customer Insight Navigator** 🧭: Navigate through comprehensive customer insights to understand their preferences, needs, and behaviors better.
-- **Behavioral Profiler Suite** 🎩: Profile customer behavior with precision using a suite of advanced analytics tools tailored for behavioral analysis.
-- **Customer Behavior Insight Engine** 🚀: Drive business growth by leveraging a powerful engine that extracts actionable insights from customer behavior data.
-- **Behavioral Trend Tracker** 📈: Track and monitor behavioral trends over time to anticipate customer preferences and market shifts effectively.
-- **Customer Behavior Dynamics** 🔄: Understand the dynamic nature of customer behavior and adapt marketing strategies accordingly to maximize engagement and conversions.
-- **Behavioral Pattern Analyzer** 🔍: Analyze complex behavioral patterns to uncover hidden correlations and opportunities for optimization.
+1. **Hypothesis 1: Age Affects Browsing Time and Purchases** 🧓👵
+   - Analyzed the relationship between age groups, browsing time, and total purchases.
+   - Found varying browsing times and purchase patterns across different age groups.
 
+2. **Hypothesis 2: Longer Browsing Time Leads to More Purchases** ⏱️🛒
+   - Investigated the correlation between browsing time and the number of purchases.
+   - Discovered a general negative correlation between browsing time and purchases, with some exceptions for younger age groups.
 
-## How It Works:
+3. **Hypothesis 3: High Page Views Don’t Translate into Purchases** 📄➡️💵
+   - Examined the correlation between total pages viewed and total purchases.
+   - Found a very weak positive correlation, suggesting that high page views do not significantly impact purchases.
 
-🔍 **Data Exploration:** The project begins with data exploration to gain insights into customer demographics, device usage, and key behavioral metrics such as browsing time, pages viewed, items added to cart, and total purchases.
+4. **Hypothesis 4: Browsing Too Long Leads to Fewer Purchases ("Choice Overload")** 🕰️❌🛒
+   - Segmented browsing times into short, medium, and long categories.
+   - Observed that longer browsing times were associated with more purchases, contradicting the "choice overload" hypothesis.
 
-🎯 **Customer Segmentation:** Utilizing clustering algorithms, customers are segmented based on their behavior to identify distinct customer groups. This helps in understanding the diversity of customer preferences and behaviors.
+5. **Hypothesis 5: Customers from Certain Regions Purchase Less** 🌍💰
+   - Analyzed total purchases by location.
+   - Found variation in purchase amounts across different locations, with some regions having lower average purchases.
 
-📊 **Funnel Analysis:** The project conducts funnel analysis to visualize and evaluate the customer journey from browsing to purchase. This helps in identifying potential drop-off points and areas for improvement in the conversion funnel.
+6. **Hypothesis 6: Device Type Influences Purchases** 💻📱📊
+   - Compared average purchases by device type (Desktop, Mobile, Tablet).
+   - Noted differences in purchase amounts across device types, with mobile users having the highest average purchases.
 
-🚀 **Insight Generation:** The project generates actionable insights and recommendations based on the analysis results, empowering businesses to optimize marketing strategies, improve user experience, and enhance revenue generation.
+7. **Hypothesis 7: Competitive Pressure in Certain Regions Leads to Fewer Purchases** 🌐💼📉
+   - Investigated the relationship between browsing time, purchases, and location.
+   - Found that regions with higher browsing times did not necessarily have lower purchases, challenging the idea of competitive pressure leading to fewer purchases.
 
+## 📈 Analysis and Results
 
+- **Age Groups**: Different age groups showed distinct patterns in browsing time and purchases.
+- **Browsing Time and Purchases**: There was a negative correlation between browsing time and purchases overall, but with notable exceptions.
+- **Page Views**: A weak correlation between page views and purchases indicated that high page views don't directly translate into more purchases.
+- **Browsing Segments**: Longer browsing times were generally associated with more purchases, countering the choice overload hypothesis.
+- **Regional Purchases**: Significant variation in purchase amounts by location was observed.
+- **Device Type**: Mobile users had the highest average purchases compared to desktop and tablet users.
+- **Competitive Pressure**: Regions with higher browsing times did not necessarily have fewer purchases.
 
-## License:
-This project is licensed under the [MIT License](LICENSE).
+## 🚀 Conclusion
 
+The project provides insights into how age, browsing time, page views, location, device type, and competitive pressure influence user behavior. While some hypotheses were supported, others were contradicted by the data.
+
+## 📁 Files
+- `customer behaviour analysis.ipynb`: Jupyter Notebook containing all analyses and visualizations.
+
+---
+
+Happy analyzing! 😄
